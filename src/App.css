@@ -14,18 +14,211 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(24, 18, 14);
+  padding-left: 12%;
+  padding-top: 5px;
+  border-bottom: #faebd7;
+  border-bottom-width: 1px;
+  border-bottom-color: #faebd7;
+  text-align: left;
+  min-height: 7vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: raw;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.mApp-header {
+  background-color: rgb(24, 18, 14);
+  
+  padding-top: 5px;
+  border-bottom: #faebd7;
+  border-bottom-width: 1px;
+  border-bottom-color: #faebd7;
+  text-align: center;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: raw;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.conte {
+  height: 50vh;
+  background-color: hsl(24, 45%, 2%);
+  color: #504429;
+  overflow: hidden;
+}
+
+.footer {
+  height: 40vh;
+  background-color:  rgb(24, 18, 14);
+  color: #504429;
+  overflow: hidden;
+}
+
+.mfooter {
+  background-color:  rgb(24, 18, 14);
+  color: #504429;
+  overflow: hidden;
+}
+
+.footerLink{
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.conteTow {
+  padding-top: 50px;
+  background-color: rgb(8, 5, 3);
+  color: #504429;
+  overflow: hidden;
+}
+
+.mconteTow {
+  padding-top: 10px;
+  background-color: rgb(8, 5, 3);
+  color: #504429;
+  overflow: hidden;
+}
+
+.midashi{
+  text-align: left;
+  color: #faebd7;
+  font-weight: bold;
+  font-size:xx-large;
+  padding-left: 12%;
+  margin-bottom: 60px;
+  padding-top: 30px;
+}
+
+.mmidashi{
+  text-align: left;
+  color: #faebd7;
+  font-weight: bold;
+  font-size:xx-large;
+  padding-left: 5%;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.honbun{
+  text-align: left;
+  color: antiquewhite;
+  font-weight:normal;
+  font-size:medium;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.mhonbun{
+  text-align: left;
+  color: antiquewhite;
+  font-weight:normal;
+  font-size:medium;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+.subscribe{
+  width: 48px;
+  height: 48px;
+}
+
+.box{
+  display: inline-block;
+  width:180px;
+  height:100px;
+
+  background-color: #ffd700;
+}
+
+.flex{
+  display: flex;
+}
+
+.jcenter{
+  justify-content: center;
+}
+
+div.item{
+  width:130px;
+  height:50px;
+  background-color: #cc3600;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  border-radius: 30px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+div.citem{
+  width:100%;
+  height:50px;
+  background-color: #cc3600;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  border-radius: 30px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+div.mitem{
+  width:130px;
+  height:50px;
+  margin-bottom: 10px;
+  background-color: #cc3600;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  border-radius: 30px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+img.toke {
+  transition: .5s;
+}
+
+img.toke:hover {
+  transform: rotateX(360deg);
+}
+
+div.item span {
+  display:inline-block;
+  transition: .5s
+}
+
+/* マウスオーバー時 */
+div.item:hover span {
+  transform: rotateX(360deg);
 }
 
 @keyframes App-logo-spin {

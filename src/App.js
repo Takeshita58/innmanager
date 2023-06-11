@@ -119,12 +119,11 @@ function App() {
         <div style={{width: "100%", height:"100%"}}>
           <div>
             <div style={{width:"30%", marginRight:"auto", marginLeft:"auto", marginBottom: "30px", marginTop: "10px"}}>
-              <div className='flex between'>
-                <img alt="icon" src={"/oumc.jpg"} className="logo"/>
+              
                 <div style={{display: "table"}}>
                   <div style={{verticalAlign: "middle", display: "table-cell", fontWeight: "bold"}}>INN manager</div>
                 </div>
-              </div>
+              
             </div>  
           </div>
         </div>

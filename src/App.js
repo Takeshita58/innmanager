@@ -122,7 +122,7 @@ function App() {
               <div className='flex between'>
                 <img alt="icon" src={"/oumc.jpg"} className="logo"/>
                 <div style={{display: "table"}}>
-                  <div style={{verticalAlign: "middle", display: "table-cell", fontWeight: "bold", color: "#cc3600"}}>INN manager</div>
+                  <div style={{verticalAlign: "middle", display: "table-cell", fontWeight: "bold"}}>INN manager</div>
                 </div>
               </div>
             </div>  

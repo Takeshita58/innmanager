@@ -33,7 +33,7 @@
 }
 
 .mApp-header {
-  background-color: rgb(24, 18, 14);
+  background-color: rgb(102, 8, 130);
   
   padding-top: 5px;
   border-bottom: #faebd7;
@@ -44,11 +44,12 @@
   display: flex;
   flex-direction: raw;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
   position: fixed;
   width: 100%;
+  padding-left: 10px;
 }
 
 .App-link {
@@ -133,8 +134,8 @@
 }
 
 .logo {
-  width: 64px;
-  height: 64px;
+  width: 5%;
+ 
   margin-right: 10px;
 }
 

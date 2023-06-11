@@ -118,13 +118,11 @@ function App() {
       <div className='mfooter' style={{marginTop: "-1px"}}>
         <div style={{width: "100%", height:"100%"}}>
           <div>
-            <div style={{width:"30%", marginRight:"auto", marginLeft:"auto", marginBottom: "30px", marginTop: "10px"}}>
-              
+            
                 <div style={{display: "table"}}>
                   <div style={{verticalAlign: "middle", display: "table-cell", fontWeight: "bold"}}>INN manager</div>
                 </div>
               
-            </div>  
           </div>
         </div>
       </div>

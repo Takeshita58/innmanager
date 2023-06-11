@@ -119,10 +119,8 @@ function App() {
         <div style={{width: "100%", height:"100%"}}>
           <div>
             
-                <div style={{display: "table"}}>
-                  <div style={{verticalAlign: "middle", display: "table-cell", fontWeight: "bold"}}>INN manager</div>
-                </div>
-              
+            <div style={{fontWeight: "bold",textAlign:"center"}}>INN manager</div>
+
           </div>
         </div>
       </div>
